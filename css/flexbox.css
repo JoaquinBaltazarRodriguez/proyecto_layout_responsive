@@ -38,9 +38,9 @@
 }
 
 .videos__item {
-    width: 280px;
+    width: 250px;
     height: 303px;
-    flex-grow: 1; /* sirve para ajustar el espacio en blanco y distribuir los elementos proporcionalmente */
+    flex-grow: 0.5; /* sirve para ajustar el espacio en blanco y distribuir los elementos proporcionalmente */
 }
 
 .descripcion-video {
@@ -100,6 +100,7 @@
         width: 74px;
         top: 80px;
     }
+    
 
     .menu__lista {
         display: flex;
